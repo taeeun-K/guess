@@ -7,6 +7,14 @@
 
 <link rel="stylesheet" href="./css/common.css">
 <link rel="stylesheet" href="./css/PC_style.css">
+
+<!-- 모바일 기기감지 -->
+<script defer type="text/javascript">
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      location.href= "./index_M.html"
+  }
+</script>
+
 <script src="./js/jquery.min.js"></script>
 <script src="./js/1.js"></script>
 <script src="./js/2.js"></script>
@@ -173,12 +181,7 @@
 
 
 
-<!-- 모바일 기기감지 -->
-<script defer type="text/javascript">
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      location.href= "./index_M.html"
-  }
-</script>
+
 <!-- 페이드 1번슬라이드 -->
 <script>
   var swiper1 = new Swiper(".fade01", {

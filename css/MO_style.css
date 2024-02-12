@@ -1,0 +1,78 @@
+@charset "uft-8";
+
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{  font-family: 'Pretendard-Regular'; font-size: 13px;}
+
+.container{width: 100%;}
+.container .cont.visual{width: 100%;}
+
+/* 메인비쥬얼 슬라이드 */
+.cont.visual{position: relative; width: 100%;}
+
+.fade01 .swiper-container {width: 100%; height: 100%; }
+.fade01 .swiper-slide { background-position: center; background-size: cover; }
+.fade01 .swiper-slide img { display: block; width: 100%; }
+
+.logo{position:absolute; left: 2rem; top: 3rem; z-index: 1000;}
+.logo img{width: 6.8rem;}
+.textBox{position: absolute; left: 0; bottom: 9.4rem; width: 100%; z-index: 1000;}
+.textBox .textCont{width: 100%;}
+.textBox .textCont .mainTitImage{margin: 0 auto; width: calc(100% - 7.2rem); height: 30vw; background: url(./../images/240115_txt_TIMETOREFRESH.png) no-repeat  50% 100% / 100% auto;  }
+.textBox .textCont .mainTxt{width: 100%; text-align: center; font-size: 1.6rem; color: #fff; line-height: 1.5; margin-top: 3rem; letter-spacing: -0.1rem;}
+
+
+
+/* 뭔가 이상함...*************** */
+.cont.couponArea{padding: 0 2.4rem; margin-top: 6rem; width: 100%; text-align: center; box-sizing: border-box;}
+.cont.couponArea p.couponHead{width: 100%; font-size: 2.4rem; font-weight: 500; }
+.cont.couponArea p.couponText{margin-top: 2.1rem; width: 100%;  font-size: 1.4rem; line-height: 1.6; font-weight: 400; }
+.cont.couponArea p.couponDate{margin-top: 1rem; width: 100%; font-size: 1.4rem; font-weight: 600; }
+.cont.couponArea .couponDown{margin-top: 3rem; width: 100%;}
+.cont.couponArea .couponDown .couponImg{margin: 0 auto; max-width: 31.2rem; height: 16rem; color: #fff; text-align: left; background: url(./../images/240115_coupon_bg.png) no-repeat center; background-size: cover; }
+.cont.couponArea .couponDown .couponImg p.couponName{padding: 3rem 0 0 4rem; font-size: 1.4rem; box-sizing:border-box;}
+.cont.couponArea .couponDown .couponImg span.couponType{display: block; padding-left: 4rem; font-size: 1.2rem; box-sizing:border-box;}
+.cont.couponArea .couponDown .couponImg strong.percent{display: block; padding-right: 4rem; width: 100%; font-size: 4.5rem; text-align: right; box-sizing: border-box;}
+.cont.couponArea .couponDown .couponImg strong em{margin-left: 0.6rem; font-style: normal; font-size: 3.5rem;}
+.cont.couponArea .couponDown button.cpDownBtn{margin-top: 1.2rem; width: 100%; max-width: 31.2rem; color: #111; font-weight: 500; line-height: 5.4rem; border: 1px solid #111; background: #fff; }
+/* 쿠폰유의사항 */
+.cont.couponArea .couponNotice{width: 100%; max-width: 31.2rem; margin: 3rem auto 0; padding: 0 2rem; background: #f4f4f4; text-align: left; box-sizing: border-box;}
+.cont.couponArea .couponNotice .noticeTop{width: 100%; line-height: 5.4rem;  background: url(./../images/arrow_down.svg)no-repeat right; background-size: 0.8rem; cursor: pointer;}
+.cont.couponArea .couponNotice.on .noticeTop{background: url(./../images/arrow_up.svg) no-repeat right; background-size: 0.8rem; }
+.cont.couponArea .couponNotice.on .noticeCont{display: block;} 
+.cont.couponArea .couponNotice .noticeTop span{position: relative; display: block; width: 100%; padding-left: 1.8rem; font-size: 1.2rem; color: #666; line-height: 5.4rem; background: url(./../images/notice_icon.svg) no-repeat left; background-size: 1.2rem;}
+.cont.couponArea .couponNotice .noticeCont{display: none; padding: 1.3rem 0 2.4rem; width: 100%; border-top: 1px solid #ddd;}
+.cont.couponArea .couponNotice .noticeCont span{display: block; font-size: 1.6rem; line-height: 1.6; color: #666; letter-spacing: -0.6px;} 
+
+
+/* 뉴시즌 배너영역 */
+.cont.newSeasonBnr{display: flex; margin-top: 5.7rem; width: 100%; height: 6rem;  text-align: center; background: #222; }
+.cont.newSeasonBnr p.bannerText{margin: auto; font-size: 2.2rem; font-weight: 700; color: #fff;}
+
+/* 왜 높이가 다르쥬..? */
+/* 해쉬태그 1,2,3 영역 */
+.cont.tagArea{ margin-top: 6rem; width: 100%;}
+.cont.tagArea.denim{margin-top: 0;}
+.cont.tagArea.pairYourJeans{padding-bottom: 6rem; box-sizing: border-box;}
+.cont.tagArea .fadeAction{width: 100%;}
+
+.cont.tagArea .hashtagArea{width: 100%;}
+.cont.tagArea .hashtagArea .tagBox{width: 100%; text-align: center;}
+.cont.tagArea .hashtagArea .tagBox span.hashtag{display: block; margin-top: 5rem; width: 100%; font-weight: 600; }
+.cont.tagArea .hashtagArea .tagBox strong.linkTitle{display: block; margin-top: 0.5rem; width: 100%; font-size: 2.2rem; color: #6d8ec3; }
+.cont.tagArea .hashtagArea .tagBox p.titleTxt{display: block; margin-top: 2.8rem; width: 100%; font-size: 1.4rem; color: #111; line-height: 1.6; font-weight: 400; }
+
+.cont.tagArea .hashtagArea .shopLinkBox{margin-top: 3rem; display: flex; gap: 1rem; width: 100%;text-align: center;}
+.cont.tagArea .hashtagArea .shopLinkBox .linkLeft{display: inline-block; width: 50%;}
+.cont.tagArea .hashtagArea .shopLinkBox .linkRight{display: inline-block; width: 50%;}
+.cont.tagArea .hashtagArea .shopLinkBox a{display: inline-block; height: auto;}
+.cont.tagArea .hashtagArea .shopLinkBox span.linkText{display: inline-block; padding: 0.1rem 2.4rem 0 0; margin: 1rem auto 0; box-sizing: border-box; background: url(./../images/ico_lnk_arr.svg) no-repeat 99% 50% / 1.8rem; }
+  /* 해쉬태그 1,2,3 영역 개별 */
+.cont.colorPalette .hashtagArea .tagBox strong.linkTitle{color: #F374C0;}
+.cont.pairYourJeans .hashtagArea .tagBox strong.linkTitle{color: #2A518C;}
